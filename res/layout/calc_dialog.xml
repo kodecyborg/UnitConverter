@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_margin="10dp"
+    android:background="@color/dialog_bg"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/unit_bg"
+        android:orientation="horizontal"
+        android:padding="12dp" >
+
+        <TextView
+            android:id="@+id/tvCalcDisplay"
+            style="@style/calc_display"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/caluculater_top_bg"
+            android:ellipsize="none"
+            android:gravity="center_vertical|right"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            android:singleLine="true"
+            android:text="@string/btn_ok" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/unit_bottom_border" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="6dp" >
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/tvCalcBtnC"
+                style="@style/calc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:layout_weight="1"
+                android:background="@drawable/cal_btn_sel"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="@string/calc_c" />
+
+            <ImageView
+                android:id="@+id/tvCalcBtnDel"
+                style="@style/calc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:layout_weight="1"
+                android:background="@drawable/cal_btn_sel"
+                android:contentDescription="@null"
+                android:gravity="center"
+                android:padding="5dp"
+                android:src="@drawable/calc_del" />
+
+            <TextView
+                android:id="@+id/tvCalcBtnMul"
+                style="@style/calc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:layout_weight="1"
+                android:background="@drawable/cal_btn_sel"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="@string/calc_star" />
+
+            <TextView
+                android:id="@+id/tvCalcBtnMinus"
+                style="@style/calc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:layout_weight="1"
+                android:background="@drawable/cal_btn_sel"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="@string/calc_desh" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/tvCalcBtn7"
+                style="@style/calc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:layout_weight="1"
+                android:background="@drawable/cal_btn_sel"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="@string/calc_7" />
+
+            <TextView
+                android:id="@+id/tvCalcBtn8"
+                style="@style/calc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:layout_weight="1"
+                android:background="@drawable/cal_btn_sel"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="@string/calc_8" />
+
+            <TextView
+                android:id="@+id/tvCalcBtn9"
+                style="@style/calc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:layout_weight="1"
+                android:background="@drawable/cal_btn_sel"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="@string/calc_9" />
+
+            <TextView
+                android:id="@+id/tvCalcBtnPlus"
+                style="@style/calc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:layout_weight="1"
+                android:background="@drawable/cal_btn_sel"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="@string/calc_plus" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/tvCalcBtn4"
+                style="@style/calc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:layout_weight="1"
+                android:background="@drawable/cal_btn_sel"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="@string/calc_4" />
+
+            <TextView
+                android:id="@+id/tvCalcBtn5"
+                style="@style/calc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:layout_weight="1"
+                android:background="@drawable/cal_btn_sel"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="@string/calc_5" />
+
+            <TextView
+                android:id="@+id/tvCalcBtn6"
+                style="@style/calc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:layout_weight="1"
+                android:background="@drawable/cal_btn_sel"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="@string/calc_6" />
+
+            <TextView
+                android:id="@+id/tvCalcBtnDev"
+                style="@style/calc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:layout_weight="1"
+                android:background="@drawable/cal_btn_sel"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="@string/calc_devide" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/tvCalcBtn1"
+                style="@style/calc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:layout_weight="1"
+                android:background="@drawable/cal_btn_sel"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="@string/calc_1" />
+
+            <TextView
+                android:id="@+id/tvCalcBtn2"
+                style="@style/calc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:layout_weight="1"
+                android:background="@drawable/cal_btn_sel"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="@string/calc_2" />
+
+            <TextView
+                android:id="@+id/tvCalcBtn3"
+                style="@style/calc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:layout_weight="1"
+                android:background="@drawable/cal_btn_sel"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="@string/calc_3" />
+
+            <TextView
+                android:id="@+id/tvCalcBtnRndStart"
+                style="@style/calc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:layout_weight="1"
+                android:background="@drawable/cal_btn_sel"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="@string/calc_rnd_start" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/tvCalcBtn0"
+                style="@style/calc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:layout_weight="1"
+                android:background="@drawable/cal_btn_sel"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="@string/calc_0" />
+
+            <TextView
+                android:id="@+id/tvCalcBtnDot"
+                style="@style/calc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:layout_weight="1"
+                android:background="@drawable/cal_btn_sel"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="@string/calc_dot" />
+
+            <TextView
+                android:id="@+id/tvCalcBtnEq"
+                style="@style/calc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:layout_weight="1"
+                android:background="@drawable/cal_btn_sel"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="@string/calc_eq" />
+
+            <TextView
+                android:id="@+id/tvCalcBtnRndClose"
+                style="@style/calc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:layout_weight="1"
+                android:background="@drawable/cal_btn_sel"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="@string/calc_rnd_close" />
+        </TableRow>
+    </TableLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/unit_bottom_border_" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/dialog_bottom_bg"
+        android:orientation="horizontal"
+        android:padding="12dp" >
+
+        <Button
+            android:id="@+id/dialog_positive"
+            style="@style/btn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/btn_red_sel"
+            android:text="@string/btn_ok" />
+
+        <Button
+            android:id="@+id/dialog_negative"
+            style="@style/btn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_weight="1.0"
+            android:background="@drawable/btn_grey_sel"
+            android:text="@string/btn_cancel" />
+    </LinearLayout>
+
+</LinearLayout>

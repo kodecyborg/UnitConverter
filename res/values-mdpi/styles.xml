@@ -1,0 +1,182 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="AppBaseTheme" parent="android:Theme.Light"></style>
+
+    <style name="AppTheme" parent="AppBaseTheme">
+        <item name="android:textColorPrimaryInverse">@android:color/primary_text_light</item>
+    </style>
+
+    <style name="news_title">
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="news_desc">
+        <item name="android:textColor">#666666</item>
+        <item name="android:textSize">13sp</item>
+    </style>
+
+    <style name="news_title_big">
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="news_desc_big">
+        <item name="android:textColor">#666666</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="note_red">
+        <item name="android:textColor">#FF0000</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="news_time">
+        <item name="android:textColor">#888888</item>
+        <item name="android:textSize">10sp</item>
+    </style>
+
+    <style name="title_bar">
+        <item name="android:textColor">#f5f2ec</item>
+        <item name="android:textSize">22sp</item>
+    </style>
+
+    <style name="page_no">
+        <item name="android:textColor">#f5f2ec</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="page_no_page">
+        <item name="android:textColor">#c27a8f</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="dialog_title">
+        <item name="android:textColor">#004a85</item>
+        <item name="android:textSize">22sp</item>
+    </style>
+
+    <style name="dialog_title_">
+        <item name="android:textColor">#990c36</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="unit_value">
+        <item name="android:textColor">#95042f</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="unit_value_">
+        <item name="android:textColor">#707070</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="unit_sel_txt">
+        <item name="android:textColor">#000</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="epaper_title">
+        <item name="android:textColor">#990c36</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="epaper_page_cnt">
+        <item name="android:textColor">#333333</item>
+        <item name="android:textSize">10sp</item>
+    </style>
+
+    <style name="edit_txt">
+        <item name="android:textColor">#666</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="menu_item">
+        <item name="android:textColor">@color/menu_text</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="btn">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="btn_">
+        <item name="android:textColor">#f5f2ec</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="calc">
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="calc_display">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="unit_sel">
+        <item name="android:textColor">#666666</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="ref_unit">
+        <item name="android:textColor">#51504f</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="table_header">
+        <item name="android:textColor">#333333</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="in_app_txt">
+        <item name="android:textColor">#666666</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="table_val">
+        <item name="android:textColor">#666666</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="dialog_value_text">
+        <item name="android:textColor">#000</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="dialog_value_text_">
+        <item name="android:textColor">#000</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="red18">
+        <item name="android:textColor">#9E0B37</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="dialog_key_text">
+        <item name="android:textColor">#333333</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="dashboard_txt">
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="loan_header_txt">
+        <item name="android:textColor">#040708</item>
+        <item name="android:textSize">17sp</item>
+    </style>
+
+    <style name="CustomSeekBarRed" parent="android:Widget.SeekBar">
+        <item name="android:progressDrawable">@drawable/seek_bar_custom</item>
+        <item name="android:thumb">@drawable/page_no_bg</item>
+        <item name="android:thumbOffset">0dip</item>
+    </style>
+
+</resources>

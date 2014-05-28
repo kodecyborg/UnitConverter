@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="menu_item_padding">10dp</dimen>
+    <dimen name="menu_header_padding_top">8dp</dimen>
+    <dimen name="menu_header_line">3dp</dimen>
+    <dimen name="menu_icon_side">40dp</dimen>
+    <dimen name="slidingmenu_offset">40dp</dimen>
+    <dimen name="list_padding">10dp</dimen>
+    <dimen name="shadow_width">15dp</dimen>
+
+    <integer name="num_cols">1</integer>
+
+    <dimen name="photo_width">100dp</dimen>
+    <dimen name="photo_height">100dp</dimen>
+    <dimen name="dashboard_img_margin">2dp</dimen>
+    <dimen name="slider_margin">8dp</dimen>
+    <dimen name="bucket_height">150dp</dimen>
+    <dimen name="slider_height">150dp</dimen>
+    <dimen name="home11">180dp</dimen>
+
+</resources>

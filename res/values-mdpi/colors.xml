@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="holo_blue_bright">#ff00ddff</color>
+    <color name="light_gray">#AA808080</color>
+    <color name="gray">#dddddd</color>
+    <color name="tab_bg">#142029</color>
+    <color name="bg_light_blue">#EBF5FF</color>
+    <color name="light_black">#CC000000</color>
+    <color name="light_black_AA">#000000</color>
+    <color name="light_black_help">#DD000000</color>
+    <color name="light_black_">#33000000</color>
+    <color name="light_black_77">#77000000</color>
+    <color name="light_blackBB">#AC000000</color>
+    <color name="light_white_">#33FFFFFF</color>
+    <color name="setting_bottom_menu_bg">#060A0C</color>
+    <color name="devider">#d3d3d1</color>
+    <color name="list_devider">#dfdcd4</color>
+    <color name="list_selector">#E9E6D9</color>
+    <color name="tab_selected">#3373b1</color>
+    <color name="tab_unselected">#e6e6e6</color>
+    <color name="alert">#CC0000</color>
+    <color name="comment_bg">#3b7fbe</color>
+    <color name="confirm">#FF8800</color>
+    <color name="info">#669900</color>
+    <color name="custom">#3F9FE0</color>
+    <color name="holo_blue">#FF33E5B5</color>
+
+    <drawable name="light_black_">#33000000</drawable>
+
+    <color name="unit_bg">#ffffff</color>
+    <color name="add_unit_bg">#e6e1cf</color>
+    <color name="dialog_bottom_bg">#ffffff</color>
+    <color name="unit_bottom_border">#d6d1bf</color>
+    <color name="unit_bottom_border_">#e4e0d3</color>
+    <color name="unit_bottom_border__">#b9b5a5</color>
+    <color name="dialog_bg">#ececec</color>
+    <color name="loan_header_bg">#edeadf</color>
+    <color name="loan_header_bg_dark">#e6e1cf</color>
+    <color name="menu_bg">#001729</color>
+    <color name="menu_text">#FFFFFF</color>
+    <color name="menu_devider">#221D1E</color>
+    <color name="menu_list_selector">#272324</color>
+    <color name="epaper_frm">#DDFFFFFF</color>
+    <color name="seekbar_bg">#9a9685</color>
+    <color name="main_bg">#ececec</color>
+    
+
+</resources>

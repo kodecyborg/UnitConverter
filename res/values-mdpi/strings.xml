@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Unit Converter</string>
+    <string name="action_settings">Settings</string>
+    <string name="btn_ok">OK</string>
+    <string name="btn_rate">RATE NOW</string>
+    <string name="btn_contact">Contact Us</string>
+    <string name="btn_upgrade">Upgrade</string>
+    <string name="btn_activate">Activate</string>
+    <string name="btn_reset">RESET</string>
+    <string name="btn_save">SAVE</string>
+    <string name="btn_show">SHOW</string>
+    <string name="btn_change_wall">Change Wallpaper</string>
+    <string name="btn_yes">Yes</string>
+    <string name="btn_no">No</string>
+    <string name="btn_cancel">CANCEL</string>
+    <string name="btn_clear">Clear</string>
+    <string name="btn_clear_all">Clear All</string>
+    <string name="all">All</string>
+    <string name="select_all">Select All</string>
+    <string name="na">N/A</string>
+    <string name="hash">#</string>
+    <string name="title_unit">Unit Converter</string>
+    <string name="title_add_unit">Add Unit</string>
+    <string name="connection_not_available">It seems that you are not connected to the Internet. Kindly check your network settings.</string>
+    <string name="connection_title">No Internet connection</string>
+    <string name="unit_selection">UNIT SELECTION</string>
+    <string name="value">VALUE</string>
+    <string name="calc_c">C</string>
+    <string name="calc_star">*</string>
+    <string name="calc_desh">-</string>
+    <string name="calc_plus">+</string>
+    <string name="calc_devide">/</string>
+    <string name="calc_eq">=</string>
+    <string name="calc_rnd_start">(</string>
+    <string name="calc_rnd_close">)</string>
+    <string name="calc_dot">.</string>
+    <string name="calc_1">1</string>
+    <string name="calc_2">2</string>
+    <string name="calc_3">3</string>
+    <string name="calc_4">4</string>
+    <string name="calc_5">5</string>
+    <string name="calc_6">6</string>
+    <string name="calc_7">7</string>
+    <string name="calc_8">8</string>
+    <string name="calc_9">9</string>
+    <string name="calc_0">0</string>
+    <string name="exit_msg">Press once again to exit</string>
+    <string name="fav_unit">Favourite Units</string>
+    <string name="add_unit">Add Unit</string>
+    <string name="reference_unit">Reference Unit</string>
+    <string name="symbol_unit">Name of Unit</string>
+    <string name="multiplying_ratio">Multiplying ratio</string>
+    <string name="hint_symbol">Name</string>
+    <string name="hint_symbol_val">Non zero</string>
+    <string name="filter">Date</string>
+    <string name="tp">TP</string>
+    <string name="code">Code</string>
+    <string name="name">Name</string>
+    <string name="mobile_no">Mobile No</string>
+    <string name="email">Email</string>
+    <string name="invalid">Invalid</string>
+    <string name="confirmation">Confirmation</string>
+
+</resources>
